@@ -3,7 +3,9 @@
 </script>
 
 <div class="absolute bottom-0 h-12 w-full taskbar rounded-tl-2xl rounded-tr-2xl hover:h-[4rem] transition-all flex items-center">
-    <slot/>
+    <slot>
+        <h1>fallback</h1>
+    </slot>
 </div>
 
 <style>

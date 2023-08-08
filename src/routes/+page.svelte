@@ -1,7 +1,6 @@
 <script>
-    import Window from '../components/Window.svelte';
     import Taskbar from '../components/Taskbar.svelte';
-    import DesktopIcon from '../components/DesktopIcon.svelte';
+    import TaskbarIcon from '../components/Taskbar.svelte';
 </script>
 
 <style lang="postcss">
@@ -13,4 +12,5 @@
 </style>
 
 <Taskbar>
+    <TaskbarIcon icon="/assets/logo_1080x.png" title="Application Title"/>
 </Taskbar>
